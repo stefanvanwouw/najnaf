@@ -1,0 +1,16 @@
+
+set auto x
+set auto y
+set key out bottom center
+set xlabel "running time(s)"
+set ylabel "time(s)"
+
+set y2label "worker thread count"
+set y2range [0:11]
+set term pdf
+set out "plot3.pdf"
+set xtics rotate by -45
+set ytics nomirror
+set y2tics nomirror
+
+plot "parsed_log" using 1:($2*$4) ti "total expected sequential processing time" with lines, "" using 1:4 ti "worker thread count" axes x1y2 with dots

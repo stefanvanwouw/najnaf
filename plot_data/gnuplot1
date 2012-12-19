@@ -1,0 +1,19 @@
+
+set termoption dash
+set auto x
+set auto y
+set key out bottom center
+set xlabel "time(s)"
+set ylabel ""
+
+set y2label "worker thread count"
+set y2range [0:11]
+set term pdf
+set out "plot1.pdf"
+set xtics rotate by -45
+set ytics nomirror
+set y2tics nomirror
+set style line 1 lt 1
+set style line 2 lt 2
+
+plot "parsed_log" using 1:2 ti "expected completion time (s)" with lines ls 1, "" using 1:3 ti "queue length" with lines ls 0, "" using 1:4 ti "worker thread count" axes x1y2 with dots
