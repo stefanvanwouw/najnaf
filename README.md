@@ -8,4 +8,4 @@ The application runs on systems that have the OpenNebula command interface enabl
 The VM images require python 2.7 to be installed as well as Apache Apollo 1.5, the Python STOMP and PIL libraries.
 
 
-The report containing the design of the system can be found <a href="https://github.com/stefanvanwouw/najnaf/blob/master/doc/report.pdf">here</a>.
+The report containing the design of the system can be found <a href="https://github.com/stefanvanwouw/najnaf/blob/master/doc/report.pdf?raw=true">here</a>.
