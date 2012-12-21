@@ -1,4 +1,4 @@
-NajNaf
+NajNaf : WantCloud BV’s Large Scale Image Resizer
 ======
 
 Prototype cloud application of the course IN4392 Seminar Cloud Computing at Delft University of Technology.
@@ -9,3 +9,4 @@ The VM images require python 2.7 to be installed as well as Apache Apollo 1.5, t
 
 
 The report containing the design of the system can be found <a href="https://github.com/stefanvanwouw/najnaf/blob/master/doc/report.pdf?raw=true">here</a>.
+ 
